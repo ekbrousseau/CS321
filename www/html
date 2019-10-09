@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ 
+<head>
+  <title>Form</title>
+   <!-- Author: Emma Brousseau 
+     Description: CS 321 Assignment 3 -->
+</head>
+<body>
+  <form name="form" action="#" method="post" onsubmit="return validate()">
+    <h1>Contact Us</h1>
+    <hr>
+    <section class="name">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name"
+             </section>
+      </hr>
+    <hr>
+      <section class="phone">
+        <label for "phone">Phone:</label>
+        <input type="text" name="phone" id="phone">
+      </section>
+    </hr>
+  <hr>
+      <section class=email>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+      </section>
+  </hr>
+      <hr>
+<section>
+  <class=radioButton><label for="radioButton">What's the best way to contact you?</label>
+    <input type="radio" name="radioButton" id="optionOne" value="one">
+    <label for="one">Phone</label>
+    <input type="radio" name="radioButton" id="optionTwo" value="two">
+    <label for="two">Email</label>
+    </section>
+  </hr>
+ <hr>
+<section>
+  <class="checkBox">
+    <label for "checkBox">How'd you hear about us?:</label>
+    <input type="checkbox" name="option" id="one" value="one">
+    <label for="one">Friend</label>
+        <input type="checkbox" name="option" id="two" value="two">
+    <label for="two">Online</label>
+        <input type="checkbox" name="option" id="three" value="three">
+    <label for="three">Advertisement</label>
+        <input type="checkbox" name="option" id="four" value="four">
+    <label for="four">TV</label>
+    </section>
+  </hr>
+<hr>
+<section class = "submit">
+  <input type="submit" value="Submit">
+</section>
+</hr>
+</body>
+</html>
